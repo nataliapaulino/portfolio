@@ -69,6 +69,16 @@
   background-color: #fff;
   padding: 5px 10px;
 }
+.link-bloco {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.link-bloco:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
